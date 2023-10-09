@@ -146,6 +146,18 @@ text-align: center;
 
 @media (max-width:480px) {
 
+.prices div h4 {
+
+    font-size: 15px;
+  }
+
+  
+  .prices {
+
+    padding: 8px 0;
+
+  }
+
   .sec-8 {
   
       padding: 20px 0 102px;
@@ -262,6 +274,19 @@ text-align: center;
 
 
 @media (max-width:768px) {
+
+.prices div h4 {
+
+    font-size: 18px;
+  }
+
+
+
+  .prices {
+
+    padding: 10px 0;
+
+  }
 
 .sec-8 form {
     min-width: 80% !important;
@@ -670,7 +695,7 @@ height: 88vh;
 
 .sec-3{
 align-items: center;
-padding-bottom: 20px !important;
+/* padding-bottom: 20px !important; */
 }
 .accordion-title:hover , .accordion-title.open{
   border-color: transparent;
@@ -939,3 +964,38 @@ select {
   background-color: #eb0678;
 }
 
+.sec9 img{
+  height: 70vh;
+cursor: grab;
+}
+.slick-prev:before,
+.slick-next:before {
+ 
+  color: black !important;
+
+}
+.sec9 {
+  background-color: #0000003d;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+/* prices */
+
+.prices {
+  display: flex;
+  gap: 22px;
+  padding: 14px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prices div h4 ,.sec3 .prices{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.prices div h5 {
+  text-decoration: line-through;
+color: #bcbcbc;
+}
