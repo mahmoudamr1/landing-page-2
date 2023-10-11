@@ -242,7 +242,7 @@ export default function Home() {
         </div>
 
         
-        <div className='div1-sec2 py-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 container content-center'>
+        <div className='div1-sec2 py-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 container content-center gap-3'>
           <div>
             <ul>
               <li><div><WiStars /></div> Bu ürün, Kadın Barbie Baskılı Sweatshirt Eşofman Alt-Üst Takımı adıyla tanımlanan, eğlenceli ve şık bir gardırop eklentisidir.</li>
@@ -417,7 +417,7 @@ export default function Home() {
           </Slider>
         </div>
         
-        <div className='sec-8 container py-6'>
+        <div className='sec-8 container pb-6 pt-8'>
 
 
           <form
