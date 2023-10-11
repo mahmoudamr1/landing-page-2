@@ -11,6 +11,9 @@ import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+
+
+
 export default function Home() {
 
 
@@ -241,7 +244,7 @@ export default function Home() {
           </div>
         </div>
 
-        
+       
         <div className='div1-sec2 py-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 container content-center gap-3'>
           <div>
             <ul>
@@ -253,9 +256,12 @@ export default function Home() {
               <li><div><WiStars /></div> Makinede yıkanabilir ve kolay bakım gerektirir.</li>
             </ul>
           </div>
+        
           <div className='div2-sec2-image-container'><Image src="/img8.jpg" alt="" width={ 800 } height={ 1200 } /></div>
+       
         </div>
-
+       
+        
         <div className='sec3 py-7'>
           <h2>Sınırlı bir süre için, Kadın Barbie Oversize Eşofman Takımı koleksiyonunu %40 İNDİRİM İLE edinin!</h2>
           <div className='prices'>
@@ -267,6 +273,14 @@ export default function Home() {
           </div>
 </div>
 
+        <div className='imgs-mobile div2-sec2-image-container container pt-5'>
+          <Image src="/img11.jpg" alt="image"
+            width={ 800 }
+            height={ 1200 }
+            quality={ 100 }
+          />
+        </div>
+        
         <div className='sec-4 container'>
           <div className="main-title">
             <h2>Main Features & Benefits</h2>

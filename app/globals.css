@@ -776,9 +776,17 @@ background-color: #00000017;
 color: #bcbcbc;
 }
 
+.imgs-mobile{
+  display: none;
+}
+
 /* small screen */
 
 @media (max-width:480px) {
+
+  .imgs-mobile{
+  display: block;
+}
 
   .sec-3 {
       padding-top: 25px !important;
@@ -796,7 +804,8 @@ margin-bottom: 0px;
 
   .div1-sec2 ul li:nth-last-child(1),
   .div1-sec2 ul li:nth-last-child(2),
-  .div1-sec2 ul li:nth-last-child(3) {
+  .div1-sec2 ul li:nth-last-child(3) ,
+  .div1-sec2 ul li:nth-last-child(4) {
     display: none;
   }
 
